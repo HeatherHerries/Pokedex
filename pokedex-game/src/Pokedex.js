@@ -20,7 +20,7 @@ class Pokedex extends Component {
               id={p.id}
               name={p.name}
               type={p.type}
-              exp={p.experience}
+              experience={p.experience}
               key={p.id}
             />
           ))}
